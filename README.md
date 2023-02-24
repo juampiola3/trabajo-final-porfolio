@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/curriculum.css">
+    <title>CV JUAN CARDOZO</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="logo">
+                    J<span class="color">C</span>
+                </div>
+            </header>
+            <div class="info">
+                <h1>JUAN CARDOZO</h1>
+                <h2>CODIFICADOR, DISEÑADOR, PROFESIONAL</h2>
+                <div class="redes">
+                    <a href="https://twitter.com/juampiola3"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/juampiola3"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/remaleducados/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.youtube.com/@remaleducados"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://ar.pinterest.com/juampiola/"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="https://scontent.faep19-1.fna.fbcdn.net/v/t39.30808-6/295032455_10229363299134133_2270029801117784850_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHT41tR7K8e2yMB4S_P_UGalNK4RuLaMhaU0rhG4toyFlWisgxIOI2vKtgqkgnS_i4&_nc_ohc=55s9THSEN4EAX-PX3kG&_nc_ht=scontent.faep19-1.fna&oh=00_AfDPDaYyBLk8IkvNdNv2knCMAkjTEF3AphRMcB8aZ9dDfw&oe=63F117B6" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">Me dedico a producir ideas creativas y originales para mis clientes</p>
+            <p>Mi objetivo profesional es mantener un crecimiento continuo en mi vida laboral y conocimientos.
+Soy capaz de trabajar bajo presión teniendo en cuenta el objetivo de la compañía y la obtención de resultados.
+Mi amplia trayectoria profesional me permite ofrecer lo mejor a las empresas en las que trabajo.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>“me considero alguien que consigue lo que se propone, ya que creo que los logros son resultados de las decisiones que se toman y las metas que cada uno se ponga”. O "como propósito intento mejorar lo que soy y lo que hago de manera constante</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Av. Dr. Gilberto Elizalde 8544,CP: B1776/LOCALIDAD:9 de Abril,Provincia de Buenos Aires</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Lectura: ficción, noticias,Diarios...Cocina: tradicional, exótica...Fotografía: paisajes,animales,ciudades del mundo...Deportes: Futbol...Basquetbol...boxeo...TC 2000...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>WORDPRESS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="wordpress">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>PHOTOSHOP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="photoshop">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>PHP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="php">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>ILUSTRATOR</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="ilustrator">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2021 - 2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                trabajo integrador ,realizado en porfolio con datos y descripciones con pestañas redireccionables a la plataforma que corresponden.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Proyecto final integrador</h4>
+                                <p>ARGENTINA PROGRAMA</p>
+                                <span class="promedio">4.0</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2021 - 2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Quiero agradecer al profesor : DANIEL RINALDI por lo aprendido en DESARROLLO WEB Y FUNDAMENTO DE LA PROGRAMACIÓN.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programador FS</h4>
+                                <p>Curso</p>
+                                <span class="promedio">4.0</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>ESTUDIANTE</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Reglamento: Desarrollo de páginas web..., Fundamentos de la programación...,Proyecto Final.
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Argentina Programa</h4>
+                                <p>Programador Junior</p>
+
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Sé Programar: Capítulos...,Fundamentos:Gobstones,"innovador lenguaje grafico"...,Programación Imperativa:JavaScript,"estructura de datos"...,Programación con Objetos:Ruby"intercambiando mensajes.
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>desarrollo frontend</h4>
+                                <p>Diseñador Web</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Ponte en contacto ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">11 - 1157454190</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">juanpablocardozo2233@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i> Página Web
+                    </h2>
+                    <span class="info-contacto">JuanCardozo.com</span>
+                </div>
+            </div>
+        </div>
+        <i class="footer-botton"></i>
+        <h2>
+            <p>copyright &copy;2023 JuanCardozo</p>
+            </h2>
+        </div>
+    </section>
+    <script src="js/curriculum.js"></script>
+</body>
+</html>
